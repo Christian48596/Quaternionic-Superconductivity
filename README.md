@@ -52,7 +52,7 @@ Outputs: `Figures/fig1_bdg_gapmap_nt_hd.png`, `.pdf`, and `.csv` (columns `kx, k
 python make_fig1_fig2.py --figure 2 --out-dir Figures
 ```
 
-The profile is $|Q|=0.42\tanh[r/(\sqrt{2}\,8)]$ with phase $\operatorname{atan2}(y-y_0,x-x_0)$ on a $256\times256$ grid. Coordinates are in lattice units, with the vortex centered at fractions $(0.50,0.56)$ of the grid extent. This illustrates quartet winding; it is not a numerical GL minimization or a calculation of magnetic flux.
+The profile is $|Q|=0.42\tanh[r/(\sqrt{2}\,8)]$ with phase $\mathrm{atan2}(y-y_0,x-x_0)$ on a $256\times256$ grid. Coordinates are in lattice units, with the vortex centered at fractions $(0.50,0.56)$ of the grid extent. This illustrates quartet winding; it is not a numerical GL minimization or a calculation of magnetic flux.
 
 Outputs: `fig2_Q_mag_nt_cb_hd` and `fig2_Q_phase_nt_cb_hd`, each as PNG, PDF, and CSV in `Figures/`. Omit `--figure` to generate both Figures 1 and 2. Omitting `--out-dir` writes to the current working directory.
 
