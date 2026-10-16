@@ -1,0 +1,19 @@
+================================================================================
+[RANK 2] Running job: dmrg_quartet_L16_t1.0_tp0.6_U6.0_mu-1.2_Jp0.0_N32_chi800
+Job(L=16, t=1.0, t_perp=0.6, U=6.0, mu=-1.2, J_pair=0.0, conserve='N', N_target=32, chi_max=800, svd_min=1e-10, mixer=True, max_E_err=1e-08, combine=True, i0=None, max_r=None, init_pattern='uniform2perrung')
+================================================================================
+[INFO] DMRG finished: E0 = -158.614379116133
+[INFO] final bond dimensions: [2, 4, 8, 16, 32, 64, 128, 256, 467, 640, 711, 763, 789, 800, 798, 765, 790, 800, 788, 787, 784, 800, 782, 769, 771, 800, 775, 770, 770, 800, 773, 761, 770, 800, 775, 770, 773, 800, 776, 778, 781, 800, 800, 786, 785, 800, 789, 783, 800, 800, 800, 793, 721, 648, 473, 256, 128, 64, 32, 16, 8, 4, 2]
+[INFO] DMRG keys: ['E', 'shelve', 'bond_statistics', 'sweep_statistics']
+[INFO] E = -158.6143791161328
+[INFO] sweep_statistics keys: ['sweep', 'N_updates', 'E', 'Delta_E', 'S', 'Delta_S', 'max_S', 'time', 'max_trunc_err', 'max_E_trunc', 'max_chi', 'norm_err']
+[INFO] last E = -158.6143791161328
+[INFO] last Delta_E = 2.2737367544323206e-13
+[INFO] last max_trunc_err = 1.4166503556224875e-18
+[INFO] bond_statistics keys: ['i0', 'age', 'E_total', 'N_lanczos', 'time', 'err', 'E_trunc', 'ov_change']
+[INFO] canonical_form() applied.
+[INFO] <N_total> = 32.000000   per rung = 2.000000   (target 32)
+[INFO] <psi|psi> = 1.000000000000e+00
+[INFO] S2e0 = 1.028701e+00   S4e0 = 5.066236e-01
+[INFO] Wrote 'results/correlators_dmrg_quartet_L16_t1.0_tp0.6_U6.0_mu-1.2_Jp0.0_N32_chi800.csv'
+[INFO] Wrote 'results/structure_dmrg_quartet_L16_t1.0_tp0.6_U6.0_mu-1.2_Jp0.0_N32_chi800.csv'

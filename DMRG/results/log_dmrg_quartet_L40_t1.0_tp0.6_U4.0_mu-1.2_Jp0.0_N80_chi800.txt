@@ -1,0 +1,19 @@
+================================================================================
+[RANK 0] Running job: dmrg_quartet_L40_t1.0_tp0.6_U4.0_mu-1.2_Jp0.0_N80_chi800
+Job(L=40, t=1.0, t_perp=0.6, U=4.0, mu=-1.2, J_pair=0.0, conserve='N', N_target=80, chi_max=800, svd_min=1e-10, mixer=True, max_E_err=1e-08, combine=True, i0=None, max_r=None, init_pattern='uniform2perrung')
+================================================================================
+[INFO] DMRG finished: E0 = -243.609642799125
+[INFO] final bond dimensions: [2, 4, 8, 16, 32, 64, 128, 256, 512, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800, 512, 256, 128, 64, 32, 16, 8, 4, 2]
+[INFO] DMRG keys: ['E', 'shelve', 'bond_statistics', 'sweep_statistics']
+[INFO] E = -243.60964279912494
+[INFO] sweep_statistics keys: ['sweep', 'N_updates', 'E', 'Delta_E', 'S', 'Delta_S', 'max_S', 'time', 'max_trunc_err', 'max_E_trunc', 'max_chi', 'norm_err']
+[INFO] last E = -243.60964279912494
+[INFO] last Delta_E = -2.12878603633726e-11
+[INFO] last max_trunc_err = 4.4782656831146336e-15
+[INFO] bond_statistics keys: ['i0', 'age', 'E_total', 'N_lanczos', 'time', 'err', 'E_trunc', 'ov_change']
+[INFO] canonical_form() applied.
+[INFO] <N_total> = 80.000000   per rung = 2.000000   (target 80)
+[INFO] <psi|psi> = 1.000000000000e+00
+[INFO] S2e0 = 1.070323e+00   S4e0 = 4.989878e-01
+[INFO] Wrote 'results/correlators_dmrg_quartet_L40_t1.0_tp0.6_U4.0_mu-1.2_Jp0.0_N80_chi800.csv'
+[INFO] Wrote 'results/structure_dmrg_quartet_L40_t1.0_tp0.6_U4.0_mu-1.2_Jp0.0_N80_chi800.csv'

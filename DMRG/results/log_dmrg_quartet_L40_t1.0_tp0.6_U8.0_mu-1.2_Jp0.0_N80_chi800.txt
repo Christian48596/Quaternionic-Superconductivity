@@ -1,0 +1,19 @@
+================================================================================
+[RANK 2] Running job: dmrg_quartet_L40_t1.0_tp0.6_U8.0_mu-1.2_Jp0.0_N80_chi800
+Job(L=40, t=1.0, t_perp=0.6, U=8.0, mu=-1.2, J_pair=0.0, conserve='N', N_target=80, chi_max=800, svd_min=1e-10, mixer=True, max_E_err=1e-08, combine=True, i0=None, max_r=None, init_pattern='uniform2perrung')
+================================================================================
+[INFO] DMRG finished: E0 = -553.764125229896
+[INFO] final bond dimensions: [2, 4, 8, 16, 32, 64, 128, 256, 368, 431, 483, 449, 495, 504, 500, 442, 490, 493, 488, 432, 482, 486, 484, 432, 480, 485, 481, 432, 481, 484, 484, 432, 481, 486, 483, 432, 481, 486, 482, 432, 482, 488, 483, 432, 481, 486, 483, 432, 481, 486, 484, 432, 481, 488, 482, 432, 481, 487, 484, 432, 481, 484, 483, 432, 481, 486, 482, 432, 481, 485, 484, 432, 481, 486, 484, 432, 481, 487, 482, 432, 481, 486, 483, 432, 480, 486, 484, 432, 481, 485, 483, 432, 481, 486, 483, 432, 483, 488, 481, 432, 481, 487, 482, 432, 481, 485, 483, 432, 482, 486, 483, 432, 482, 487, 484, 432, 481, 484, 481, 432, 481, 487, 484, 432, 481, 487, 484, 432, 484, 488, 483, 432, 481, 485, 481, 432, 483, 485, 484, 433, 486, 493, 492, 441, 501, 509, 496, 448, 484, 431, 368, 256, 128, 64, 32, 16, 8, 4, 2]
+[INFO] DMRG keys: ['E', 'shelve', 'bond_statistics', 'sweep_statistics']
+[INFO] E = -553.7641252298962
+[INFO] sweep_statistics keys: ['sweep', 'N_updates', 'E', 'Delta_E', 'S', 'Delta_S', 'max_S', 'time', 'max_trunc_err', 'max_E_trunc', 'max_chi', 'norm_err']
+[INFO] last E = -553.7641252298962
+[INFO] last Delta_E = 7.617018127348274e-12
+[INFO] last max_trunc_err = 5.815390657195764e-19
+[INFO] bond_statistics keys: ['i0', 'age', 'E_total', 'N_lanczos', 'time', 'err', 'E_trunc', 'ov_change']
+[INFO] canonical_form() applied.
+[INFO] <N_total> = 80.000000   per rung = 2.000000   (target 80)
+[INFO] <psi|psi> = 1.000000000000e+00
+[INFO] S2e0 = 1.016113e+00   S4e0 = 5.034256e-01
+[INFO] Wrote 'results/correlators_dmrg_quartet_L40_t1.0_tp0.6_U8.0_mu-1.2_Jp0.0_N80_chi800.csv'
+[INFO] Wrote 'results/structure_dmrg_quartet_L40_t1.0_tp0.6_U8.0_mu-1.2_Jp0.0_N80_chi800.csv'

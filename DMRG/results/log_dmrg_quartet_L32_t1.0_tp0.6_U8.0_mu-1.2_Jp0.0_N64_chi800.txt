@@ -1,0 +1,19 @@
+================================================================================
+[RANK 5] Running job: dmrg_quartet_L32_t1.0_tp0.6_U8.0_mu-1.2_Jp0.0_N64_chi800
+Job(L=32, t=1.0, t_perp=0.6, U=8.0, mu=-1.2, J_pair=0.0, conserve='N', N_target=64, chi_max=800, svd_min=1e-10, mixer=True, max_E_err=1e-08, combine=True, i0=None, max_r=None, init_pattern='uniform2perrung')
+================================================================================
+[INFO] DMRG finished: E0 = -442.961387026493
+[INFO] final bond dimensions: [2, 4, 8, 16, 32, 64, 128, 256, 369, 432, 485, 448, 496, 508, 500, 443, 490, 494, 489, 431, 481, 489, 485, 432, 480, 485, 484, 432, 481, 488, 483, 432, 481, 486, 484, 432, 481, 486, 484, 432, 480, 487, 483, 432, 481, 488, 484, 432, 483, 488, 484, 432, 481, 489, 484, 432, 481, 488, 483, 432, 481, 489, 484, 432, 481, 488, 484, 432, 481, 488, 483, 432, 481, 488, 484, 432, 481, 487, 484, 432, 481, 489, 484, 432, 481, 485, 483, 432, 481, 488, 484, 432, 481, 488, 484, 432, 481, 489, 484, 432, 481, 489, 484, 432, 482, 489, 484, 432, 487, 494, 494, 441, 499, 509, 497, 449, 485, 433, 369, 256, 128, 64, 32, 16, 8, 4, 2]
+[INFO] DMRG keys: ['E', 'shelve', 'bond_statistics', 'sweep_statistics']
+[INFO] E = -442.96138702649296
+[INFO] sweep_statistics keys: ['sweep', 'N_updates', 'E', 'Delta_E', 'S', 'Delta_S', 'max_S', 'time', 'max_trunc_err', 'max_E_trunc', 'max_chi', 'norm_err']
+[INFO] last E = -442.96138702649296
+[INFO] last Delta_E = 6.0822458181064576e-12
+[INFO] last max_trunc_err = 5.739182531393648e-19
+[INFO] bond_statistics keys: ['i0', 'age', 'E_total', 'N_lanczos', 'time', 'err', 'E_trunc', 'ov_change']
+[INFO] canonical_form() applied.
+[INFO] <N_total> = 64.000000   per rung = 2.000000   (target 64)
+[INFO] <psi|psi> = 1.000000000000e+00
+[INFO] S2e0 = 1.016023e+00   S4e0 = 5.036460e-01
+[INFO] Wrote 'results/correlators_dmrg_quartet_L32_t1.0_tp0.6_U8.0_mu-1.2_Jp0.0_N64_chi800.csv'
+[INFO] Wrote 'results/structure_dmrg_quartet_L32_t1.0_tp0.6_U8.0_mu-1.2_Jp0.0_N64_chi800.csv'
